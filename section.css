@@ -7,39 +7,60 @@
 
 /* reusables  */
 nav{
-    margin: 1rem;
+    margin: 1rem 1rem 0rem 3rem;
+    z-index: 5;
+    border: yellow 1px solid;
+}
+
+/* pushes down the links */
+.nav-links{
+    margin-top: 3rem;
 }
 .nav-links>ul>li{
+    align-items: center;    
+}
+.nav-links>ul>li>a{
     list-style: none;
     margin-left: 0.5rem;
     margin-right: 0.5rem;
+    font-size: 13.6px;
 }
-a{
-    text-decoration: none;
+a{  text-decoration: none;
     color: #fff;
 }
+
+/* library */
 .flex{
     display: flex;
 }
 .space-between{
     justify-content: space-between;
 }
-.logo{
-    width: 94px;
-    height: 126.5px;
-}
-
 .arrow{
     display: inline-block;
     transform: rotate(90deg);
-    font-size: 1.1rem;
+    font-size: 0.6rem;
     font-weight: 900;
     color: #fff;
 }
 .white{
     color: #fff;
 }
+/* end library */
+
+.logo{
+    width: 94px;
+    height: 126.5px;
+}
+
 .btn{
+    border: none;
+    border-radius: 15px;
     background: #0078BE;
     padding:10px 14px;
+    font-size: 13.6px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 0.8rem;
+    margin-left: 0.8rem;
 }
