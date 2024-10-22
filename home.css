@@ -4,3 +4,15 @@
     height: 1024px;
 
 }
+
+.title{
+    color: #fff;
+    margin-top: 260px;
+    text-align: center;
+}
+
+.content{
+    font-family:Sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+}
