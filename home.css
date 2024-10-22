@@ -60,3 +60,31 @@
     font-size: 0.8rem;
     text-align: center;
 }
+
+/* card hovering */
+#community-card:hover{
+    cursor: pointer;
+    transition: all 0.6s;
+    background: rgb(199, 241, 255);
+}
+#economy-card:hover{
+    cursor: pointer;
+    transition: all 0.6s;
+    background: rgb(200, 231, 241);
+}
+#design-card:hover{
+    cursor: pointer;
+    transition: all 0.6s;
+    background:lightgrey;
+}
+#sustainable-card:hover{
+    cursor:pointer;
+    transition: all 0.6s;
+    background: lightgreen;
+}
+#balance-card:hover{
+    cursor: pointer;
+    transition: all 0.6s;
+    background:lightpink;
+}
+/* end card hovering */
