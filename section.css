@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 20px; /*So that 1rem=20px*/
+    background-color: black;
+}
+
+/* reusables  */
+nav{
+    margin: 1rem;
+}
+.nav-links>ul>li{
+    list-style: none;
+}
+.nav-links>ul{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+.flex{
+    display: flex;
+}
+.space-between{
+    justify-content: space-between;
+}
+.logo{
+    width: 94px;
+    height: 126.5px;
+}
+
+.arrow{
+    transform: rotate(90deg);
+    font-size: 1.1rem;
+    font-weight: 900;
+    color: #fff;
+}
+.white{
+    color: #fff;
+}
