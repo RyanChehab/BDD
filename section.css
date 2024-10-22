@@ -2,14 +2,12 @@
     margin: 0;
     padding: 0;
     font-size: 20px; /*So that 1rem=20px*/
-    background-color: black;
 }
 
 /* reusables  */
 nav{
-    margin: 1rem 1rem 0rem 3rem;
+    margin: 0rem 1rem 0rem 3rem;
     z-index: 5;
-    border: yellow 1px solid;
 }
 
 /* pushes down the links */
@@ -18,6 +16,10 @@ nav{
 }
 .nav-links>ul>li{
     align-items: center;    
+}
+.nav-links>ul>li:hover{
+    background: rgba(197, 196, 196, 0.5);
+    transition: all 0.2s;
 }
 .nav-links>ul>li>a{
     list-style: none;
@@ -49,10 +51,13 @@ a{  text-decoration: none;
 /* end library */
 
 .logo{
+    margin-top:1rem ;
     width: 94px;
     height: 126.5px;
 }
-
+.logo:hover{
+    cursor: pointer;
+}
 .btn{
     border: none;
     border-radius: 15px;
