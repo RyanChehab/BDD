@@ -24,4 +24,39 @@
 .second{
     background: #F5F5F5;
     height: 600px;
+    margin-top: -3.8rem;
+}
+
+.foundations{
+    display: flex;
+    flex-direction: column;    
+    align-items: center;    
+    gap: 1.1rem;
+    margin-top: 3.8rem;
+    height: 513.28px;
+    width: 238.59px;
+    background: #fff;
+    margin-left: 0.4rem;
+    margin-right: 0.4rem;
+    border-radius: 10px;
+    box-shadow:0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08); 
+
+}
+.foundations-title{
+    color: #212121;
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.foundations-logos{
+    margin-top: 1rem;
+    width: 160px;
+    height: 80px;
+}
+
+.foundations-content{
+    color: #646464;
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    text-align: center;
 }
