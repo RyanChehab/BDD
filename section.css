@@ -11,10 +11,12 @@ nav{
 }
 .nav-links>ul>li{
     list-style: none;
-}
-.nav-links>ul{
     margin-left: 0.5rem;
     margin-right: 0.5rem;
+}
+a{
+    text-decoration: none;
+    color: #fff;
 }
 .flex{
     display: flex;
@@ -28,6 +30,7 @@ nav{
 }
 
 .arrow{
+    display: inline-block;
     transform: rotate(90deg);
     font-size: 1.1rem;
     font-weight: 900;
@@ -35,4 +38,8 @@ nav{
 }
 .white{
     color: #fff;
+}
+.btn{
+    background: #0078BE;
+    padding:10px 14px;
 }
