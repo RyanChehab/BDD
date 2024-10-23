@@ -35,6 +35,9 @@ a{  text-decoration: none;
 .flex{
     display: flex;
 }
+.coloumn{
+    flex-direction: column;
+}
 .space-between{
     justify-content: space-between;
 }
@@ -71,4 +74,19 @@ a{  text-decoration: none;
 }
 .justify-content-center{
     justify-content: center;
+}
+/* footer */
+footer{
+    height: 390px;
+    background-color:#212121;
+}
+.footer-1{
+    padding: 2rem;
+}
+.footer-1>p{
+    padding: 0.25rem;
+    color:#fff;
+}
+.stores{
+    gap: 1rem;
 }
