@@ -17,7 +17,7 @@ nav{
 .nav-links>ul>li{
     align-items: center;    
 }
-.nav-links>ul>li:hover{
+.nav-links>ul>li:hover:not(:has(.btn)){
     background: rgba(197, 196, 196, 0.5);
     transition: all 0.2s;
 }
