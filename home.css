@@ -131,8 +131,9 @@
     gap: 15px;
 }
 .card{
+    position: relative;
     background: url('/imgs/bg-icon-empty.png');
-    height: 513.28px;
+    height: 700px;
     width: 200px;
     border-radius:10px;
     box-sizing: border-box;
@@ -155,8 +156,40 @@
     list-style-position: inside;
 }
 .custom-list>li{
-    padding: 1rem;
+    padding: 0.4rem;
     color: #646464;
     font-size: 1.2rem;
     height: 100%;
+}
+.know{
+    position: absolute;
+    bottom: 1.25rem;
+    left:50%;
+    transform: translateX(-50%);
+    border: none;
+    border-radius: 15px;
+    background: #0078BE;
+    color: #fff;
+    font-weight: 400;
+    font-size: 0.8rem;
+    padding:10px 15px;
+    cursor: pointer;
+}
+.fourth-footer{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    margin-bottom: 3rem;
+}
+.store{
+    margin-top:1rem;
+    width: 212px;
+    height: 63px;
+}
+/* fifth */
+.fifth{
+    background: url('/imgs/parallax-light.jpg');
+    height: 450px;
+    background-attachment:fixed ;
+    position: relative;
 }
