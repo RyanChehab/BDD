@@ -50,15 +50,33 @@
 }
 .foundations-logos{
     margin-top: 1rem;
-    width: 160px;
-    height: 80px;
 }
-
 .foundations-content{
     color: #646464;
     font-family: sans-serif;
     font-size: 0.8rem;
     text-align: center;
+}
+/* logos */
+#community{
+    width: 160px;
+    height: 80px;
+}
+#suitcase{
+    width: 130px;
+    height: 80px;
+}
+#medal{
+    width: 80px;
+    height: 80px;
+}
+#sus{
+    width:125px;
+    height: 80px;
+}
+#balance{
+    width:126px;
+    height:80px;
 }
 
 /* card hovering */
@@ -88,3 +106,57 @@
     background:lightpink;
 }
 /* end card hovering */
+
+/* third */
+.third{
+    background-image:url('/imgs/Shared-Space-at-BDD.png') ;
+    height: 450px;
+    background-attachment:fixed ;
+    position: relative;
+}
+#vid{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top:50%;
+    left: 50%;
+    width:529px;
+    height:297px;
+}
+
+/* fourth */
+.fourth{
+    margin-top:3rem;
+}
+.fouth-container{
+    gap: 15px;
+}
+.card{
+    background: url('/imgs/bg-icon-empty.png');
+    height: 513.28px;
+    width: 200px;
+    border-radius:10px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.card:hover{
+    box-shadow:0 10px 10px rgba(0, 0, 0, 0.4), 0 7px 7px rgba(0,0,0,0.4)
+}
+#join-bdd{
+    width: 440px;
+    height: 360px;
+}
+.card-title{
+    margin-top:25px;
+    text-align: center;
+    font-weight: bolder;
+}
+.custom-list{
+    list-style-image: url('/logos/1bdb97fd-0c96-4794-b2a1-fa2bb42798ef.png');
+    list-style-position: inside;
+}
+.custom-list>li{
+    padding: 1rem;
+    color: #646464;
+    font-size: 1.2rem;
+    height: 100%;
+}
