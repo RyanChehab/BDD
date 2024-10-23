@@ -1,0 +1,45 @@
+.bg-wrapper{
+    background: url('/imgs/partners-banner.jpg');
+    background-repeat: no-repeat;
+    height: 400px;
+}
+.first{
+    height: 700px;
+}
+.first>h1{
+    padding:1.5rem;
+    color: black;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.sixth-card-2{
+    height: 450px;
+    background-color: #fff;
+    max-width:300px;
+}
+.sixth-pic-1{
+    width: 300px;
+    height: 261px;
+}
+.pic-content{
+    color: black;
+    font-weight: 800;
+    padding: 1rem;
+}
+.sixth-date{
+    font-size: 15px;
+    color: #646464;
+    margin-left: 0.5rem;
+    margin-top: 0.3rem;
+}
+.content-2{
+    font-size: 13px;
+    color: #646464;
+}
+.cards{
+    margin-left:0.7rem;
+}
+.gap{
+    gap: 1rem;
+}
