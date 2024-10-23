@@ -226,3 +226,19 @@
     width: 350px;
     height: 261px;
 }
+.sixth-card-1{
+    height: 450px;
+    background-color: #fff;
+    max-width:350px;
+}
+.pic-content{
+    color: black;
+    font-weight: 800;
+    padding: 1rem;
+}
+.sixth-date{
+    font-size: 15px;
+    color: #646464;
+    margin-left: 0.5rem;
+    margin-top: 0.3rem;
+}
