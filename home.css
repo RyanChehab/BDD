@@ -132,7 +132,8 @@
 }
 .card{
     position: relative;
-    background: url('/imgs/bg-icon-empty.png');
+    background: url('/imgs/bg-icon.png');
+    background-repeat: o-repeat;
     height: 700px;
     width: 200px;
     border-radius:10px;
@@ -189,7 +190,39 @@
 /* fifth */
 .fifth{
     background: url('/imgs/parallax-light.jpg');
-    height: 450px;
+    height: 350px;
     background-attachment:fixed ;
     position: relative;
+}
+.fifth-title {
+    color: black; 
+    font-size: 1.5rem; 
+    font-weight: bolder; 
+    text-align: center;
+    padding: 3rem;
+}
+.fifth-logos {
+    display: flex;
+    justify-content: space-evenly;
+}
+/* sixth */
+.sixth{
+    background: url('/imgs/bg-icon-empty.png');
+    height: 1340px;
+}
+
+.sixth-title{
+    padding-top: 3rem;
+    color: black;
+    font-size: 1.7rem;
+    font-weight: bolder;
+    text-align: center;
+}
+.sixth-content{
+    gap: 1.5rem;
+    padding-top: 0.7rem;
+}
+.sixth-pic{
+    width: 350px;
+    height: 261px;
 }
